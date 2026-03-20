@@ -1,0 +1,106 @@
+.clothes--border {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.clothes__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+    flex-wrap: wrap;
+
+}
+.article__wrapper {
+    background: var(--bg-color);
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 295px;
+    height: 298px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    
+}
+
+.clotches__title {
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 31px;
+    font-weight: 900;
+    font-size: 48px;
+    color: var(--main-color);
+}
+.article__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    mix-blend-mode: multiply;
+    background: transparent;
+    
+}
+
+.article__about {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.article__text {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.article__about-stars {
+    display: flex;
+    gap: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+.article__about-stars--total {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.article__cost {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+
+.article__button-container{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    margin-bottom: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 62px;
+    width: 218px;
+    height: 52px;
+    transition: 0.3s;
+}
+
+.article__button {
+    width: 100%;
+}
+
+.article__button-container:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: #000;
+}
+
+.article__button:hover {
+    color: #fff;
+}
+
+.button--margin {
+    margin-bottom: 95px;
+}
