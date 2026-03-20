@@ -1,0 +1,16 @@
+.page {
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.page__body {
+    min-width: 375px;
+}
+
+* {
+    transition: all 0.3s;
+}
+.container {
+    width: min(var(--container-width), 100% - (var(--container-padding) * 2));
+    margin-inline: auto;
+}
