@@ -1,0 +1,16 @@
+.header__logo:hover,
+.header__list-item:hover,
+.header__actions-link:hover,
+.clotches__link:hover,
+.style-card:hover,
+.footer__logo:hover,
+.newsletter:hover,
+.footer__flex-title:hover,
+.footer__list-item:hover{
+    transform: translateY(-5px);
+}
+
+.hero__info-button:hover {
+    transform: scale(1.1);
+}
+
